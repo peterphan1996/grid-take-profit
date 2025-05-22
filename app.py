@@ -12,7 +12,7 @@ parser = argparse.ArgumentParser()
 # Add the arguments
 parser.add_argument('-price', type=float, help='The price value')
 parser.add_argument('-line', type=int, help='The line value', default=8)
-parser.add_argument('-amount', type=int, required=True, help='The amount value')
+parser.add_argument('-amount', type=float, required=True, help='The amount value')
 parser.add_argument('-symbol', type=str, help='The symbol of the cryptocurrency')
 
 # Parse the arguments
